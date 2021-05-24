@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="origin-trial" data-feature="WebVR (For Chrome M59+)" data-expires="2017-07-28" content="ArFv1ZeTwzkhjNE00uAE+XtiQB41fwqG/TqlFMLrepd9sforQSvQE/tgfIbUMYNuNre4QR1k4/z8xp2mV3dbhwwAAABeeyJvcmlnaW4iOiJodHRwczovL2FmcmFtZS5pbzo0NDMiLCJmZWF0dXJlIjoiV2ViVlIxLjEiLCJleHBpcnkiOjE1MDEyMTcwMDIsImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta charset="utf-8">
+<title>Un cumple sin productos Sevilla</title>
+<meta name="description" content="Un cumple sin productos Sevilla">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<script src="https://aframe.io/aframe/dist/aframe-master.min.js"></script>
+<script src="https://aframe.io/aframe/examples/js/info-message.js"></script>
+<script src="https://unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js"></script>
+<script src="https://aframe.io/aframe/examples/js/hide-on-enter-ar.js"></script>
+<script src="https://aframe.io/aframe/examples/showcase/model-viewer/ar-shadows.js"></script>
+<script src="https://aframe.io/aframe/examples/showcase/model-viewer/ar-hit-test.js"></script>
+<script src="https://aframe.io/aframe/examples/showcase/model-viewer/model-viewer.js"></script>
+<script src="https://aframe.io/aframe/examples/showcase/model-viewer/background-gradient.js"></script>
+</head>
+<body>
+<a-scene renderer="colorManagement: true;" info-message="htmlSrc: #messageText" model-viewer="gltfModel: #amor; title: Feliz Cumple Ginna\n con amor Jonathan">
+<a-assets>
+
+<a-asset-item id="amor" src="./modelos/scene.gltf" response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
+<img id="shadow" src="https://aframe.io/aframe/examples/showcase/model-viewer/shadow.png"></img>
+<a-asset-item id="messageText" src="./message.html"></a-asset-item>
+</a-assets>
+</a-scene>
+</body>
+</html>
